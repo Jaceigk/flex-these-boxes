@@ -1,4 +1,4 @@
-
+/* forked */
 .box-shadow {
     box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .1  );
 }
@@ -9,30 +9,52 @@
 
 #header {
     color: palevioletred;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-size: 2em;
 }
 
 #nav {
     width: 20%;
     height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #content {
     width: 70%;
+    display: flex;
+    flex-direction:column;
+    
+
+
 }
 
 #sidebar {
     width: 10%;
+    
+    
+
 }
 
 #footer {
+display: flex;
+justify-content: center;
+flex-direction: column-reverse;
+align-items: center;    
     font-size: 0.7em;
 }
 
 .card-body {
     width: 200px;
+    
 }
 
 .user-avatar {
     padding-right: 10px;
+}
+#main {
+    display: flex;
 }
